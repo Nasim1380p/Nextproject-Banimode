@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.swiper-button-prev,.swiper-button-next{
+  color: #fc94a4;
+  width: 5px !important;
+  height: 5px !important;
+  font-size: 2px ;
+  
+}
+@font-face {
+  font-family: 'nasim';
+  src: url('./font/b.ttf');
+}
+@font-face {
+  font-family: 'sahar';
+  src: url('./font/a.ttf');
+}
+
+
