@@ -23,7 +23,7 @@ export default function Service() {
             <div className='w-[240px] h-[240px] bg-white rounded-full'>
             <div className='flex justify-center'><Image src='/icon1.jpg' width={100} height={100} alt='icon'/></div>
                <h3 className='font-semibold text-center text-lg text-[#6c6b6b]'>ضمانت بازگشت کالا</h3>
-               <p className='text-sm text-center text-[#9a9999] mt-1'>تا 7 روز برای اجترام به مشتریان کالای خریداری شده برگردانده می شود.</p>
+               <p className='text-sm text-center text-[#9a9999] mt-1'>تا 7 روز برای احترام به مشتریان کالای خریداری شده برگردانده می شود.</p>
                <p className='text-sm text-center text-[#00bf6f] mt-6'>بیشتر بدانید...</p>
               </div>
             </div>
